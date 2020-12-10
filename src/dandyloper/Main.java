@@ -29,5 +29,15 @@ public class Main {
         for (String name: groceryLine) {
             System.out.println(name);
         }
+
+        List<String> dogNames = new ArrayList<>();
+        dogNames.add("Snoopy");
+        dogNames.add("Rin Tin Tin");
+        dogNames.add("Gloria");
+
+        int bethIndex = dogNames.indexOf("Beth");
+        int gloriaIndex = dogNames.indexOf("Gloria");
+
+        System.out.println(bethIndex + gloriaIndex);
     }
 }
