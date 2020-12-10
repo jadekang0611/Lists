@@ -10,6 +10,7 @@ public class Main {
         groceryLine.add("Jerome");
         groceryLine.add("Beth");
         groceryLine.add("Craig");
+        groceryLine.add("Jade");
 
         System.out.println(groceryLine);
 
@@ -18,5 +19,15 @@ public class Main {
 
         String jerome = groceryLine.get(0);
         System.out.println(jerome);
+
+        int CraigIndex = groceryLine.indexOf("Craig");
+        System.out.println(CraigIndex);
+
+        // Similar to .length in array
+        System.out.println(groceryLine.size());
+
+        for (String name: groceryLine) {
+            System.out.println(name);
+        }
     }
 }
